@@ -20,6 +20,18 @@ namespace AbstractExample
             {
                 animal = new Dog();
             }
+            else if (choice == "3")
+            {
+                animal = new Bird();
+            }
+            else if (choice == "4")
+            {
+                animal = new Cat();
+            }
+            else if (choice == "5")
+            {
+                animal = new Hamster();
+            }
 
             animal?.MakeNoise();
             animal?.Sleep();
